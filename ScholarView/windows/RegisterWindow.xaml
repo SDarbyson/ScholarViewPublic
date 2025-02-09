@@ -1,0 +1,54 @@
+﻿<Window x:Class="ScholarView.windows.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Register" Height="700" Width="400">
+    <Grid Margin="10">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#3b5998" Offset="0"/>
+                <GradientStop Color="#8b9dc3" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="342" Height="540">
+            <TextBlock Text="Register" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10" />
+
+            <!-- Email -->
+            <TextBlock Text="Email" FontSize="10" FontWeight="DemiBold" Width="58" TextAlignment="Center"/>
+            <TextBox Name="EmailTextBox" Width="140" Margin="0,10" materialDesign:HintAssist.Hint="Email" />
+
+            <!-- Name -->
+            <TextBlock Text="Name" FontSize="10" FontWeight="DemiBold" Width="58" TextAlignment="Center"/>
+            <TextBox Name="NameTextBox" Width="140" Margin="0,10" materialDesign:HintAssist.Hint="Name" />
+
+            <!-- Birthday -->
+            <TextBlock Text="Birth Date" FontSize="10" FontWeight="DemiBold" Width="58" TextAlignment="Center"/>
+            <DatePicker Name="BirthDatePicker" Width="140" Margin="0,10" />
+
+            <!-- Password -->
+            <TextBlock Text="Password" FontSize="10" FontWeight="DemiBold" Width="58" TextAlignment="Center"/>
+            <PasswordBox Name="PasswordBox" Width="140" Margin="0,10" materialDesign:HintAssist.Hint="Password" />
+
+            <!-- Confirm Password -->
+            <TextBlock Text="Confirm Password" FontSize="10" FontWeight="DemiBold" Width="87" TextAlignment="Center"/>
+            <PasswordBox Name="ConfirmPasswordBox" Width="140" Margin="0,10" materialDesign:HintAssist.Hint="Confirm Password" />
+
+            <!-- Profile Photo -->
+            <TextBlock Text="Upload Profile Photo" FontSize="10" FontWeight="DemiBold" Width="140" TextAlignment="Center"/>
+            <Button Content="Upload Photo" Width="140" Height="30" Margin="0,10" Click="UploadPhoto_Click" Background="#2FD0C4" BorderBrush="#2FD0C4"/>
+
+            <!-- Register Button -->
+            
+            <Button Content="Register" Width="140" Height="30" HorizontalAlignment="Center" Margin="0,20" Click="RegisterButton_Click" 
+                    Background="#2FD0C4" BorderBrush="#2FD0C4"/>
+            <StackPanel Width="202" Height="30">
+                <Button Content="Do you have an account? Login here" Width="202" Foreground="White" Background="Transparent" 
+                    BorderBrush="Transparent" Click="LoginButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Content="🏠" ToolTip="Back to Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"
+                Click="HomeButton_Click" Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" FontSize="16" />
+    </Grid>
+</Window>

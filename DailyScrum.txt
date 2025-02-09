@@ -1,0 +1,176 @@
+2024/11/20 Sean
+1. Done since last scrum
+- First scrum 
+2. Plan until next Scrum
+- Github/Trello setup
+- Connect to Ethan's Azure DB
+- Finalize Proposal and submit
+3. Need assistance / figure things out
+-
+
+2024/11/20 Amine
+1. Done since last scrum
+- First scrum
+2. Plan until next Scrum
+- Get familiar with MSSQL and connect to Azure DB
+- Add some user stories on Trello
+3. Need assistance / figure things out
+-
+
+2024/11/20 Ethan
+1. Done since last scrum
+- First scrum 
+2. Plan until next Scrum
+- Azure setup
+- database updatase
+- connect to visual studio for database
+3. Need assistance / figure things out
+-
+
+*****
+
+2024/11/21 Sean
+1. Done since last scrum
+- Database config
+- testing secret implementation
+- Finalized Proposal and submitted
+2. Plan until next Scrum
+- Insert some teachers and course for debug and testing
+- Start working on course browsing/search view
+3. Need assistance / figure things out
+-
+
+2024/11/21 Amine
+1. Done since last scrum
+- Got familiar with MSSQL and connected to Azure DB
+- Added 10 user stories on Trello
+2. Plan until next Scrum
+- view course information
+3. Need assistance / figure things out
+-
+
+2024/11/21 Ethan
+1. Done since last scrum
+- Database configurations
+- connect to visual studio for database
+2. Plan until next Scrum
+- Login & Register windows
+3. Need assistance / figure things out
+
+*****
+
+2024/11/22 Sean
+1. Done since last scrum
+- Finished basic work on course browse/search
+- Successfully fetched course list from database
+- Solve project issues with Visual Studio
+2. Plan until next Scrum
+- Review and approve Amine's PR
+- Style the search window and set up navigation to it
+3. Need assistance / figure things out
+-
+
+2024/11/22 Amine
+1. Done since last scrum
+- Course information window
+2. Plan until next Scrum
+- teacher can view course details (list of students, grades, etc.)
+3. Need assistance / figure things out
+-
+
+2024/11/22 Ethan
+1. Done since last scrum
+- Login window done with funcionalty
+- Register window done with funcionalty
+2. Plan until next Scrum
+- Student can view his schedule
+3. Need assistance / figure things out
+-
+
+*****
+2024/11/24 Sean
+1. Done since last scrum
+- Search window visuals and logic 90% complete
+- Reviewed/Approved PRs
+- Fixed Database
+2. Plan until next Scrum
+- Set up Registration for Students to Courses, then make PR
+- Finish styling of search window
+3. Need assistance / figure things out
+-
+
+2024/11/24 Amine
+1. Done since last scrum
+- Window that shows a teacher's personal list of courses with details
+- Window that shows lsit of students and their grades for that specific course
+2. Plan until next Scrum
+- Window for grade submission
+3. Need assistance / figure things out
+-
+
+2024/11/24 Ethan
+1. Done since last scrum
+- Student can view their schedule (%90)
+2. Plan until next Scrum
+- Student can view his grades
+3. Need assistance / figure things out
+-
+
+*****
+2024/11/25 Sean
+1. Done since last scrum
+- Student Registration work mostly done, editing PR
+- Some reformatting of code
+2. Plan until next Scrum
+- Finish styling of search window
+- Fix CourseDetails
+3. Need assistance / figure things out
+-
+
+2024/11/25 Amine
+1. Done since last scrum
+-  Window for grade submission
+2. Plan until next Scrum
+- Student can view his grades
+3. Need assistance / figure things out
+-
+
+2024/11/25 Ethan
+1. Done since last scrum
+- Student can view his grades
+- passwords save as hashed
+- profile photos can upload on register and dashboard
+2. Plan until next Scrum
+- Frontend re-styling
+3. Need assistance / figure things out
+-
+
+*****
+2024/11/26 Sean
+1. Done since last scrum
+- Debugging of environments
+- Coursedetails fixes, validation, button hiding
+2. Plan until next Scrum
+- Look into modifying existing code to incorporate unit tests
+- Work on presentation
+3. Need assistance / figure things out
+-
+
+2024/11/26 Amine
+1. Done since last scrum
+- Student can view his grades
+2. Plan until next Scrum
+- Incorporate testing
+- Work on presentation
+3. Need assistance / figure things out
+-
+
+2024/11/26 Ethan
+1. Done since last scrum
+- Frontend re-styling
+2. Plan until next Scrum
+- Contuniue the styling and implement teacher can view schedule again
+3. Need assistance / figure things out
+-
+
+*****

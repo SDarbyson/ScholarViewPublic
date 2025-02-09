@@ -1,0 +1,35 @@
+﻿<Window x:Class="ScholarView.windows.ScheduleSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScholarView.windows"
+        mc:Ignorable="d"
+        Title="Schedule Selection Window" Height="300" Width="550">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#3b5998" Offset="0"/>
+                <GradientStop Color="#8b9dc3" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel Name="StudentCourseSPanel" Orientation="Horizontal" HorizontalAlignment="Left" Margin="45,80,0,0" Width="217" VerticalAlignment="Top">
+            <Label Content="Year:" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <RadioButton GroupName="YearFilter" Content="2024" IsChecked="True" Foreground="Black" Margin="0,0,10,0" Height="18"/>
+            <RadioButton GroupName="YearFilter" Content="2025" Foreground="Black" Margin="0,0,10,0" Height="18"/>
+            <RadioButton GroupName="YearFilter" Content="2026" Foreground="Black" Margin="0,0,10,0" Height="18"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="326,65,0,0" Height="50" VerticalAlignment="Top" Width="175">
+            <Label Content="Semester:" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <ComboBox x:Name="ComboSemester" Width="90" Height="20">
+                <ComboBoxItem Content="Winter" IsSelected="True"/>
+                <ComboBoxItem Content="Spring"/>
+                <ComboBoxItem Content="Summer"/>
+                <ComboBoxItem Content="Fall"/>
+            </ComboBox>
+        </StackPanel>
+
+        <Button Name="BtnSearchSchedule" Content="View Schedule" Width="100" Height="30" Margin="180,180,0,0" Click="BtnSearchSchedule_Click" Background="Aqua" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
